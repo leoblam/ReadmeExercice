@@ -1,15 +1,17 @@
-
-h1{
-    text-decoration: underline;
-    background-color: green;
+h1 {
+  background-color: green;
 }
 
-ul{
-    border: 5px;
+p {
+  text-decoration: underline;
+  margin: 5px;
+}
+
+ul {
 }
 
 img {
-    display: block;
-    width: 30%;
-    margin: auto;
-  }
+  display: block;
+  width: 30%;
+  margin: auto;
+}
