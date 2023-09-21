@@ -1,0 +1,17 @@
+h1 {
+  background-color: green;
+}
+
+p {
+  text-decoration: underline;
+  margin: 5px;
+}
+
+ul {
+}
+
+img {
+  display: block;
+  width: 30%;
+  margin: auto;
+}

@@ -1,17 +1,88 @@
-h1 {
-  background-color: green;
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.page {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.content {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.Left_Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  max-width: 250px;
+  width: 30%;
+  height: auto;
+  min-height: 125px;
+  min-width: 125px;
+}
+
+.Profil_Picture {
+  position: relative;
+}
+
+.Profil_Picture img {
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.overlay {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  position: absolute;
+  background: rgba(57, 57, 57, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  border-radius: 0 0 5px 5px;
+}
+
+.Right_Content {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 20px 0 20px;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 0;
 }
 
 p {
-  text-decoration: underline;
-  margin: 5px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 300;
+  color: grey;
 }
 
-ul {
+.Name {
+  padding: 10px 0 10px;
 }
 
-img {
-  display: block;
-  width: 30%;
-  margin: auto;
+.About_Title {
+  padding: 20px 0 10px;
+}
+
+.About_Text {
+  padding: 10px 0 10px;
 }
