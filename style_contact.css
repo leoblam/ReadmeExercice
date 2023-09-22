@@ -1,0 +1,12 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.Content {
+  width: 100%;
+}
