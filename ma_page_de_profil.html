@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>Ma page de Profil</title>
   </head>
   <body>
@@ -37,7 +38,41 @@
               </p>
             </div>
           </div>
-          <div class="Second_Bloc"></div>
+          <div class="Second_Bloc">
+            <div class="Tabs">
+              <button class="Tablinks" onclick="OpenTab(event, 'First_Tab')"id="defaultOpen">
+                Premier onglet
+              </button>
+              <button class="Tablinks" onclick="OpenTab(event, 'Second_Tab')">
+                Second onglet
+              </button>
+              <button class="Tablinks" onclick="OpenTab(event, 'Third_Tab')">
+                Troisieme onglet
+              </button>
+            </div>
+            <div id="First_Tab" class="Tabcontent">
+              <h3>Contact Info</h3>
+              <ul>
+                <li>Familly name : Mcain</li>
+                <li>Name : Steven</li>
+                <li>Phone Number : +33 645 262 545</li>
+                <li>Email : Steven@Mcain.com</li>
+              </ul>
+            </div>
+            <div id="Second_Tab" class="Tabcontent">
+              <h3>Aditional Info</h3>
+              <ul>
+                <li>Employee ID : 22334455</li>
+                <li>Name : Steven</li>
+              </ul>
+            </div>
+            <div id="Third_Tab" class="Tabcontent">
+            <h3>Contact</h3>
+            <ul>
+              <li>Phone Number : +33 645 262 545</li>
+              <li>Email : Steven@Mcain.com</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
