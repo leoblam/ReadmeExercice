@@ -1,6 +1,5 @@
 * {
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,4 +8,55 @@
 
 .Content {
   width: 100%;
+  font-weight: 200;
+}
+.Content h1 {
+  margin: 5px;
+}
+.First_Bloc {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Content p {
+  margin: 10px;
+}
+
+.Line_Between {
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: red;
+  margin: auto;
+}
+
+.Second_Bloc {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.Left_Bloc {
+  display: flex;
+
+  width: 50%;
+  height: 35vw;
+  display: block;
+  background-color: #282b30;
+  max-height: 600px;
+}
+.Right_Bloc {
+  width: 50%;
+  height: 100%;
+}
+
+.Right_Bloc iframe {
+  position: relative;
+  height: 35vw;
+  overflow: hidden;
 }
