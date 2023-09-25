@@ -43,24 +43,30 @@
   justify-content: center;
   width: 70%;
   margin: auto;
+  flex-wrap: wrap;
 }
 
 .Left_Bloc {
   display: flex;
-
   width: 50%;
   height: 35vw;
   display: block;
   background-color: #282b30;
   max-height: 600px;
+  min-width: 300px;
+  min-height: 300px;
 }
 .Right_Bloc {
   width: 50%;
   height: 100%;
+
+  min-width: 300px;
+  min-height: 300px;
 }
 
 .Right_Bloc iframe {
   position: relative;
   height: 35vw;
   overflow: hidden;
+  min-height: 300px;
 }
